@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">    
+  </head>
+
+  <body>
+
+    <header><h1>Zenva Love</h1></header>
+
+    <main class="grid">
+
+      <div class='row'>
+      
+          <fieldset>
+            <legend>Partner Search: </legend>
+            <div class="row">
+              <label for="gender">Gender: </label>
+
+              <select id="gender">
+                <option value="A">All</option>
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+              </select>
+
+              <label for="hobby">Hobbies: </label>
+
+              <input type="text" id="hobby" placeholder="ex. web design, artes marciais, programação"/>
+            </div>
+
+          <div class="row">
+            <button id="searchBtn">Search</button>
+          </div>
+          </fieldset>        
+
+      </div>
+
+      <div id='results'>
+
+
+      </div>
+
+    </main>
+
+    <script src='js/script.js'></script>
+  </body>
+</html>
