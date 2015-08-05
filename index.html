@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>JavaScript</title>
@@ -7,12 +8,14 @@
     <link href="css/style.css" rel="stylesheet">    
   </head>
 
-  <body>
+  <body>  
+
+  <!-- Container -->
+  <div class="wrap"> 
 
     <header><h1>Zenva Love</h1></header>
 
-    <main class="grid">
-
+    <main> <!-- Main section -->
       <div class='row'>
       
           <fieldset>
@@ -34,17 +37,20 @@
           <div class="row">
             <button id="searchBtn">Search</button>
           </div>
-          </fieldset>        
+          </fieldset>      
+      </div>  
+      <div id='results'></div>      
+      <!--This "pushes" down the footer
+      so it doesn't overlap anything.-->
 
-      </div>
+  </div> 
+  <!-- End of container -->
 
-      <div id='results'>
-
-
-      </div>
-
-    </main>
-
-    <script src='js/script.js'></script>
+  <footer>
+    <small>G.R Web - &copy;2015.All rights reserved.</small>
+  </footer>
+     
+  <script src='js/script.js'></script> 
   </body>
+
 </html>

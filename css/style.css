@@ -1,17 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica;
+}
+
 body {
-    font-family: helvetica;
+  display: table;
+  width: 100%;
+  border-collapse: collpase;
 }
 
-.grid {
-  max-width: 960px;
-  margin: 0 auto;
+.wrap {
+  display: table-row;
 }
 
-header {
+header, footer {
     background-color:#F16F51;
     height: 40px;
     text-align: center;
     line-height: 40px;
+}
+
+footer{
+  display: table-row;
+}
+
+footer small {
+  color: #fff;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 h1 {
